@@ -9,3 +9,4 @@ __pycache__/
 venv/
 *.so
 .python-version
+data/FashionMNIST/
