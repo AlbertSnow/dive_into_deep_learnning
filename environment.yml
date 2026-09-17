@@ -1,0 +1,16 @@
+# 原书组合为 python=3.6 + mxnet==1.5.0，当前 macOS 已无法安装。
+# 改为 Python 3.8 + MXNet 1.9.1：Gluon API 与书中代码兼容。
+name: gluon
+channels:
+  - conda-forge
+dependencies:
+  - python=3.8
+  - pip
+  - pip:
+    - numpy==1.23.5
+    - mxnet==1.9.1
+    - jupyter==1.0.0
+    - matplotlib==3.5.3
+    - pandas==1.3.5
+    - ipykernel==6.29.5
+    - -e .
